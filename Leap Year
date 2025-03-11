@@ -1,0 +1,14 @@
+class Solution {
+    static boolean isLeap(int N) {
+            return (N % 400 == 0) || (N % 4 == 0 && N % 100 != 0);
+    }
+
+    public static void main(String[] args) {
+        
+        System.out.println(isLeap(2000));  
+        System.out.println(isLeap(1900));  
+        System.out.println(isLeap(2024));  
+        System.out.println(isLeap(2023));  
+    }
+}
+    
